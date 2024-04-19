@@ -1,6 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { sign } from 'crypto';
-
+import { Router } from '@angular/router'; // Importe o serviço Router
 @Component({
   selector: 'app-projects',
   standalone: true,
@@ -25,4 +24,10 @@ export class ProjectsComponent {
     },
 
   ])
+  constructor(private router: Router) {} // Injete o serviço Router
+
+  navigateToGamePage() {
+    this.router.navigate(['/jsgamepage']); // Navegue para a rota '/jsgamepage'
+  }
+  
 }

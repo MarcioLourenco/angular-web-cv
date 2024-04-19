@@ -3,6 +3,7 @@
     <ul>
         @for(item of arrayProjects(); track item){
         <li>
+            <a (click)="navigateToGamePage()">
             <button>
                 <img
                 [src]="item.src"
@@ -12,6 +13,7 @@
                 [attr.height]="item.height"
                 />
             </button>
+            </a>
         </li>
     }
     </ul>
