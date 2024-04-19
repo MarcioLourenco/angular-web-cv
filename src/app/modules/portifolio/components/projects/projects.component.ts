@@ -11,11 +11,11 @@ import { sign } from 'crypto';
 export class ProjectsComponent {
   public arrayProjects = signal([
     {
-      src:"./assets/img/projects/vfull.png",
+      src:"./assets/img/projects/gamejpg.jpg",
       alt:"Project",
       title:"FullStack",
-      width:"100px",
-      height: "51px",
+      width:"200px",
+      height: "100px",
       description: "-----------------------------------",
       links:[
         {name:"---------",

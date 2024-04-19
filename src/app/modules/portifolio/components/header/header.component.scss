@@ -22,7 +22,10 @@
     }
     aside{
         p{
-            text-align: center;
+            text-align: justify;
+        }
+        .p2{
+            text-align: right;
         }
         nav{
             margin: 20px;
@@ -36,7 +39,7 @@
             }
             li{
                 a{
-                    width: 250px;
+                    width: 210px;
                 }
             }
         }

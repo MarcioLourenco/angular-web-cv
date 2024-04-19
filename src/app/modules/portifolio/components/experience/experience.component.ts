@@ -11,24 +11,24 @@ export class ExperienceComponent {
   public arrayExperience = signal([
     {
       summary:{
-        strong:"Consultant Data Scientist",
+        strong:"Consultant Data Scientist - Capco",
         p:"2022 July - Current Position"
       },
       text: "Decomposing monolith to microservices."
     },
     {
       summary:{
-        strong:"Consultant Data Scientist",
-        p:"2022 July - Current Position"
+        strong:"Data Scientist III - GPA",
+        p:"2021 May - 2022 July"
       },
-      text: "Decomposing monolith to microservices."
+      text: "Making machine learning models applied to field of retail."
     },
     {
       summary:{
-        strong:"Consultant Data Scientist",
-        p:"2022 July - Current Position"
+        strong:"Data Scientist II - Cogna",
+        p:"2019 May - 2021 May"
       },
-      text: "Decomposing monolith to microservices."
+      text: "Making machine learning models applied to field of education."
     },
   ])
 }
